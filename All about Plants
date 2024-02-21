@@ -76,6 +76,7 @@ weight group
 #to determine if data set is S3 or S4, I installed the pryr library
 install.packages("pryr")
 #then i used the library to determine my dataset type
+library(pryr)
 >otype(PlantGrowth)
 S3
 >!isS4(PlantGrowth)
